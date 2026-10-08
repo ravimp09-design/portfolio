@@ -22,9 +22,9 @@ export function ScrollToTopFab() {
     <button
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       aria-label="Scroll to top"
-      className="fixed bottom-6 right-6 z-40 flex h-10 w-10 items-center justify-center rounded border border-sky-200 bg-white text-sky-700 shadow-sm transition-all hover:border-sky-500 hover:bg-sky-50"
+      className="fixed bottom-6 right-6 z-40 flex h-12 w-12 items-center justify-center rounded-full border-2 border-[#004CE6] bg-white text-[#004CE6] shadow-xl shadow-blue-600/20 transition-all hover:scale-110 hover:bg-[#004CE6] hover:text-white hover:shadow-blue-600/40 active:scale-95"
     >
-      ↑
+      <span className="text-lg font-extrabold">↑</span>
     </button>
   );
 }
@@ -43,8 +43,9 @@ export function CopyButton({ text, label }) {
     <button
       onClick={handleCopy}
       type="button"
-      className="inline-flex items-center gap-2 rounded border border-sky-200 bg-white px-3.5 py-1.5 text-xs font-medium text-slate-700 hover:border-sky-400 hover:bg-sky-50/50 transition-colors shadow-sm"
+      className="inline-flex items-center gap-2 rounded-xl border border-slate-300 bg-white px-4 py-3 text-xs font-bold text-slate-800 shadow-sm transition-all hover:border-[#004CE6] hover:bg-[#EEF4FF] hover:text-[#004CE6] active:scale-95"
     >
+      <span className="flex h-2 w-2 rounded-full bg-[#004CE6]"></span>
       <span>{copied ? "✓ Copied to clipboard" : label || text}</span>
     </button>
   );
