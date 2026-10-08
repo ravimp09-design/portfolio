@@ -3,13 +3,13 @@
 export const profile = {
   name: "Ravi Yadav",
   title: "Senior UI/UX Designer & Product Designer",
-  experienceYears: "13+ Years Experience",
+  experienceYears: "12+ Years Experience",
   phone: "+91 9907299075",
   email: "ravimp09@gmail.com",
   location: "Indore, MP, India",
   availability: "Available for Senior UI/UX & Product Design Roles",
-  tagline: "13+ years of experience leading UI/UX and product design across FinTech, SaaS, and enterprise web applications, backed by strong front-end implementation skills.",
-  about: "Senior UI/UX Designer and Product Designer with 13+ years of experience leading digital product design at Infowind Technologies. I specialize in designing FinTech applications, enterprise dashboards, and mobile interfaces. My work spans the full product cycle: user research, wireframing, clickable Figma prototypes, design systems, and frontend implementation in React.js and Tailwind CSS. By bridging design and code, I ensure product decisions are intuitive, accessible, and efficiently built for production.",
+  tagline: "12+ years of experience leading UI/UX and product design across FinTech, SaaS, and enterprise web applications, backed by strong front-end implementation skills.",
+  about: "Senior UI/UX Designer and Product Designer with 12+ years of experience leading digital product design at Infowind Technologies. I specialize in designing FinTech applications, enterprise dashboards, and mobile interfaces. My work spans the full product cycle: user research, wireframing, clickable Figma prototypes, design systems, and frontend implementation in React.js and Tailwind CSS. By bridging design and code, I ensure product decisions are intuitive, accessible, and efficiently built for production.",
   socials: [
     { label: "Behance", href: "https://www.behance.net/gallery/121780045/Graphic-Design" },
     { label: "Email", href: "mailto:ravimp09@gmail.com" },
@@ -125,7 +125,7 @@ export const experience = [
     company: "Infowind Technologies Pvt. Ltd.",
     location: "Indore, MP, India",
     period: "2013 – Present",
-    yearsCount: "13+ Years",
+    yearsCount: "12+ years",
     role: "Senior UI/UX Designer",
     bullets: [
       "Lead UI/UX design across responsive web applications, FinTech platforms, customer dashboards, and mobile interfaces.",
